@@ -3,10 +3,9 @@ body {
   padding: 0;
 }
 
-span {
+div {
   background: red;
-  width: 100px;
-  height: 30px;
-  margin: 20px;
-  padding: 20px;
+  width: 120px;
+  height: 80px;
+  display: inline;
 }
