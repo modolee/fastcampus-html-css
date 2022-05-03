@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <select name="coffee" size="4">
+      <optgroup label="Coffee">
+        <option selected>Americano</option>
+        <option>Caffe Mocha</option>
+        <option label="Cappuccino" value="Cappuccino"></option>
+      </optgroup>
+      <optgroup label="Latte" disabled>
+        <option>Caffe Latte</option>
+        <option>Vanilla Latte</option>
+      </optgroup>
+      <optgroup label="Smoothie">
+        <option>Plain</option>
+        <option>Strawberry</option>
+        <option>Banana</option>
+        <option>Mango</option>
+      </optgroup>
+    </select>
+
+    <input type="text" list="coffee-list" />
+    <datalist id="coffee-list">
+      <option selected>Americano</option>
+      <option>Caffe Mocha</option>
+      <option>Cappuccino</option>
+      <option>Caffe Latte</option>
+      <option>Vanilla Latte</option>
+      <option>Plain</option>
+      <option>Strawberry</option>
+      <option>Banana</option>
+      <option>Mango</option>
+    </datalist>
+  </body>
+</html>
