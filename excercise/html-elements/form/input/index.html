@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- form 태그 밖에 있는 input도 사용할 수 있음 -->
+    <!-- <form action="/login" id="login-form">
+        <button type="submit">로그인</button>
+      </form>
+      <input type="email" name="email" form="login-form" /> -->
+
+    <!-- input으로 버튼 만들기 -->
+    <!-- <form action="/login" method="GET">
+      <input type="email" name="id" />
+      <input type="password" name="pw" />
+      <input type="submit" value="로그인" />
+    </form> -->
+
+    <!-- 숫자만 입력할 수 있는 읽기 전용 -->
+    <!-- <input type="number" value="1234" readonly />
+    <input type="number" value="1234" disabled /> -->
+
+    <!-- 숫자 최대/최소, 증가 단위  -->
+    <!-- <input
+      type="number"
+      placeholder="숫자를 입력하세요!"
+      max="8"
+      min="4"
+      step="2"
+    /> -->
+
+    <!-- 체크박스 -->
+    <!-- <input type="checkbox" checked /> -->
+
+    <!-- 여러 개 파일 선택 -->
+    <!-- <input type="file" multiple /> -->
+
+    <!-- 이미지를 Submit 버튼으로 활용 -->
+    <!-- <form action="/login">
+      <input type="image" src="../../../images/heropy.png" alt="HEROPY" />
+    </form> -->
+
+    <!-- 라디오 버튼 name을 통해서 서로 연결 됨 -->
+    <!-- <input type="radio" name="radio1" />
+    <input type="radio" name="radio1" checked />
+    <input type="radio" name="radio1" /> -->
+
+    <!-- 리셋 버튼 -->
+    <form action="/login">
+      <input type="email" name="id" />
+      <input type="password" name="pw" />
+      <input type="submit" value="로그인" />
+      <input type="reset" value="초기화" />
+    </form>
+    <input type="text" />
+  </body>
+</html>
