@@ -1,0 +1,29 @@
+/* Basic Combinator */
+
+span.orange {
+  color: orange;
+}
+
+.orange#orange {
+  color: red;
+}
+
+/* Child Combinator */
+ul > .apple {
+  color: green;
+}
+
+/* Desendant Combinator */
+div .orange {
+  font-weight: bold;
+}
+
+/* Adjacent Sibling Combinator */
+.apple + li {
+  font-size: x-large;
+}
+
+/* General Sibling Combinator */
+.apple ~ li {
+  font-style: italic;
+}
