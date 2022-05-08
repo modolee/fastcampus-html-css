@@ -1,0 +1,23 @@
+/* Universal Selector */
+* {
+  color: yellowgreen;
+}
+
+/* Type Selector */
+li {
+  color: red;
+}
+
+/* Class Selector */
+.orange {
+  color: orange;
+}
+
+/* ID Selector */
+#carrot {
+  color: purple;
+}
+
+#strawberry {
+  color: blue;
+}
