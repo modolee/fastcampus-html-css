@@ -1,0 +1,11 @@
+.fruits li:nth-child(2) {
+  color: red;
+}
+
+.fruits li:nth-child(2n) {
+  font-weight: bold;
+}
+
+.fruits li:nth-child(n + 3) {
+  font-style: italic;
+}

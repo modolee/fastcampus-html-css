@@ -1,0 +1,18 @@
+/* .fruits의 첫번째 자식 요소가 p가 아니라서 선택 안됨 */
+.fruits p:nth-child(1) {
+  color: red;
+}
+
+/* 
+ * box-group의 후손 모두에 적용되기 때문에
+ * 의도한 대로 동작하게 하려면 자식 선택자를 사용해야 됨
+ * .box-group > div:first-child
+ */
+.box-group div:first-child {
+  color: red;
+  font-weight: bold;
+}
+
+.box-group :first-child {
+  font-style: italic;
+}
