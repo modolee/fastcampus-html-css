@@ -1,0 +1,27 @@
+ul {
+  font-size: 40px;
+}
+
+ul li::after {
+  content: ".0";
+}
+
+ol {
+  font-size: 40px;
+}
+
+ol li::after {
+  content: url("https://www.google.com/images/hpp/swg-shield-gleam-blue-42x42px.gif");
+}
+
+div {
+  font-size: 100px;
+}
+
+div::before {
+  content: "<";
+}
+
+div::after {
+  content: ">";
+}

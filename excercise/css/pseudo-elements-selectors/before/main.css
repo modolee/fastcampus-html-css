@@ -1,0 +1,23 @@
+ol {
+  font-size: 40px;
+}
+ol li::before {
+  content: "순서";
+  font-weight: bold;
+  color: red;
+  margin-right: 20px;
+}
+
+ul {
+  font-size: 40px;
+}
+
+ul li::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: tomato;
+  margin-right: 20px;
+  display: inline-block;
+  border-radius: 50%;
+}
