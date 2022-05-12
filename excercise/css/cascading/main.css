@@ -1,0 +1,23 @@
+div {
+  color: red !important;
+}
+
+#color-yellow {
+  color: yellow;
+}
+
+.color-green {
+  color: green;
+}
+
+div {
+  color: blue;
+}
+
+* {
+  color: darkblue;
+}
+
+body {
+  color: violet;
+}
