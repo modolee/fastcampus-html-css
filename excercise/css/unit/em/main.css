@@ -1,0 +1,29 @@
+body * {
+  border: 2px solid;
+}
+
+.container {
+  /* width: 600px; */
+  width: 60em;
+  font-size: 10px;
+}
+
+.parent {
+  width: 30em;
+  /* font-size: inherit; 이 자동으로 적용 된 경우 */
+  /* width: 30em * 10px = 300px; */
+
+  font-size: 2em;
+  /* font-size를 명시적으로 설정한 경우 */
+  /* width: 30em * 2em * 10px = 600px; */
+}
+
+.child {
+  width: 15em;
+  /* font-size: inherit; 이 자동으로 적용 된 경우 */
+  /* width: 15em * 20px = 300px; */
+
+  font-size: 2em;
+  /* font-size를 명시적으로 설정한 경우 */
+  /* width: 15em * 2em * 20px = 600px; */
+}

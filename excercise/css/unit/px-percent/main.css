@@ -1,0 +1,19 @@
+body * {
+  border: 2px solid;
+}
+
+.container {
+  width: 600px;
+}
+
+.parent {
+  width: 300px;
+  /* %로 표현하면 아래와 같음 */
+  /* width: 50%; */
+}
+
+.child {
+  width: 150px;
+  /* %로 표현하면 아래와 같음 */
+  /* width: 50%; */
+}
