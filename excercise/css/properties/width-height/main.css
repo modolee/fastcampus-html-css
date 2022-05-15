@@ -1,0 +1,12 @@
+div {
+  width: auto; /* 100 % */
+  /* height: auto; */ /* 0 */
+  height: 100px;
+  background: tomato;
+}
+
+span {
+  /* width: 100px; 적용 안됨 */
+  /* height: 100px; 적용 안됨 */
+  background: blue;
+}
