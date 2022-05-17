@@ -1,0 +1,10 @@
+div {
+  text-indent: 3em;
+}
+
+.modolee {
+  background: url("https://avatars.githubusercontent.com/u/34900418");
+  width: 450px;
+  height: 450px;
+  text-indent: -9999px; /* 화면에서 텍스트를 제거하기 위함 */
+}
