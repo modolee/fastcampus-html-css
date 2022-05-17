@@ -4,7 +4,7 @@
 
 | 값           | 의미            | 기본값 |
 | ------------ | --------------- | ------ |
-| border-style | 선의 두께(너비) | medium |
+| border-width | 선의 두께(너비) | medium |
 | border-style | 선의 종류       | none   |
 | border-color | 선의 색상       | black  |
 
@@ -21,7 +21,7 @@ border: 두께 종류 색상;
 
 /* 개별 속성 */
 .box2 {
-  border-style: 1px;
+  border-width: 1px;
   border-style: solid;
   border-color: red;
 }
@@ -29,7 +29,7 @@ border: 두께 종류 색상;
 
 # 개별 속성
 
-## `border-style`
+## `border-width`
 
 선의 `두께(너비)`를 지정 <kbd>`단축`</kdb> <kbd>`개별`</kbd>
 
@@ -44,17 +44,17 @@ border: 두께 종류 색상;
 
 ```css
 /*
-border-style: top right bottom left;
-border-style: top [left, right], bottom;
-border-style: [top, bottom], [left, right]
-border-style: [top, bottom, left, right]
+border-width: top right bottom left;
+border-width: top [left, right], bottom;
+border-width: [top, bottom], [left, right]
+border-width: [top, bottom, left, right]
 */
 
 .box {
-  border-style: 10px 20px 30px 40px;
-  border-style: 10px 20px 40px;
-  border-style: 10px 40px;
-  border-style: 10px;
+  border-width: 10px 20px 30px 40px;
+  border-width: 10px 20px 40px;
+  border-width: 10px 40px;
+  border-width: 10px;
 }
 ```
 
