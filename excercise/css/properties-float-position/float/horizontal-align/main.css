@@ -1,0 +1,25 @@
+.container {
+  display: flow-root;
+}
+
+.box {
+  width: 150px;
+  height: 100px;
+  background: tomato;
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+}
+
+div.left {
+  float: left;
+}
+
+div.right {
+  float: right;
+}
+
+.normal {
+  background: orange;
+  /* clear: both; */
+}

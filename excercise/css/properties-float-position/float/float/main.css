@@ -1,0 +1,13 @@
+article {
+}
+article .picture {
+  width: 200px;
+  height: 150px;
+  background: tomato;
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+article .text {
+  clear: left; /* picture가 float하는 것을 해제 */
+}
