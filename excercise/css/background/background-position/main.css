@@ -1,0 +1,10 @@
+.box {
+  width: 1000px;
+  height: 1000px;
+  background-image: url("../../../images/heropy_small.png");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  /* background-position: 50% 0%; */
+  background-position: right 50px;
+  border: 2px dashed lightgray;
+}

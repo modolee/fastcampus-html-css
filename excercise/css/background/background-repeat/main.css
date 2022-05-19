@@ -1,0 +1,7 @@
+.box {
+  background-image: url("../../../images/heropy_small.png");
+  background-repeat: repeat-y;
+  width: 1000px;
+  height: 1000px;
+  border: 2px dashed lightgray;
+}

@@ -1,0 +1,10 @@
+.box {
+  /* background-image: url("../../../images/heropy_small.png"),
+    url("../../../images/heropy_medium.png"),
+    url("../../../images/heropy_large.png"); */
+  background-image: url("../../../images/heropy_small.png");
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 1000px;
+  border: 2px dashed lightgray;
+}
