@@ -1,0 +1,29 @@
+# align-self
+
+- 단일 그리드 Item의 수직(열 축) 정렬
+- 그리드 Item의 세로 너비가 자신이 속한 그리드 행(Track)의 크기보다 작아야 함
+
+> align-items는 items에 모두 적용되고, align-self는 개별 item에 적용
+
+| 값      | 의미                                   | 기본값 |
+| ------- | -------------------------------------- | ------ |
+| normal  | `stretch`와 같음                       | normal |
+| start   | 시작점(위쪽) 정렬                      |        |
+| center  | 수직 가운데 정렬                       |        |
+| end     | 끝점(아래쪽) 정렬                      |        |
+| stretch | 열 축을 채우기 위해 그리드 Item을 늘림 |        |
+
+# justify-self
+
+- 단일 그리드 Item의 수평(행 축) 정렬
+- 그리드 Item의 가로 너비가 자신이 속한 그리드 열(Track)의 크기보다 작아야 함
+
+> justify-items는 items에 모두 적용되고, justify-self는 개별 item에 적용
+
+| 값      | 의미                                   | 기본값 |
+| ------- | -------------------------------------- | ------ |
+| normal  | `stretch`와 같음                       | normal |
+| start   | 시작점(왼쪽) 정렬                      |        |
+| center  | 수평 가운데 정렬                       |        |
+| end     | 끝점(오른쪽) 정렬                      |        |
+| stretch | 행 축을 채우기 위해 그리드 Item을 늘림 |        |

@@ -1,0 +1,21 @@
+/* minmax */
+/* .container {
+  width: 200px;
+  display: grid;
+  border: 10px dashed lightgray;
+  grid-template-columns: minmax(100px, 1fr) minmax(200px, 1fr);
+}
+
+.item {
+  border: 10px solid red;
+} */
+
+.container {
+  display: grid;
+  border: 10px dashed lightgray;
+  grid-template-columns: repeat(2, fit-content(200px));
+}
+
+.item {
+  border: 10px solid red;
+}

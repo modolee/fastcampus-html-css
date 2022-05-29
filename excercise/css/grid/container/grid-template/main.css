@@ -1,0 +1,29 @@
+.container {
+  width: 600px;
+  display: grid;
+  grid-template:
+    [header-top] "header header header" 80px [header-bottom]
+    [main-top] "main . aside" 350px [main-bottom]
+    [footer-top] "footer footer footer" 130px [footer-bottom]
+    / 2fr 100px 1fr;
+}
+
+.container > * {
+  border: 10px solid red;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+}

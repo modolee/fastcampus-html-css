@@ -1,0 +1,44 @@
+.container-for-order {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container-for-order .item {
+  border: 10px solid red;
+}
+
+.container-for-order .item:nth-child(1) {
+  order: 1;
+}
+
+.container-for-order .item:nth-child(3) {
+  order: 5;
+}
+
+.container-for-order .item:nth-child(5) {
+  order: -1;
+}
+
+.container-for-z-index {
+  display: grid;
+  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(3, 100px);
+}
+
+.container-for-z-index .item:nth-child(1) {
+  background: yellowgreen;
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.container-for-z-index .item:nth-child(2) {
+  background: red;
+  opacity: 0.7;
+  grid-area: 1 / 2 / 3 / 3;
+  z-index: 1;
+}
+
+.container-for-z-index .item:nth-child(3) {
+  background: cyan;
+  grid-area: 2 / 2 / 3 / 4;
+}
